@@ -1,0 +1,50 @@
+/* CSS dla strony Game Modes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202225;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c2f33;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.main-container {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.mode-card {
+    background-color: #2c2f33;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.mode-card h3 {
+    color: #7289da;
+    margin-bottom: 1rem;
+}
+
+.mode-card p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #2c2f33;
+    color: #99aab5;
+    text-align: center;
+    padding: 1rem;
+}

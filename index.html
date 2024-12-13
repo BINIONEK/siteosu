@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>osu! Fan Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">osu! Fan Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About osu!</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="modes.html">Game Modes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <div id="osuCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="jiowqdo.jpg" class="d-block w-100" alt="osu! Gameplay">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to osu! Fan Page</h5>
+                    <p>Your gateway to the rhythm gaming community.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="round.webp" class="d-block w-100" alt="osu! Tournament">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Stay Connected</h5>
+                    <p>Explore events, tournaments, and more!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="top.png" class="d-block w-100" alt="osu! Community">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Join the Community</h5>
+                    <p>Meet players and creators from around the world.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#osuCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#osuCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About Section -->
+    <div class="container mt-4">
+        <h2>About This Page</h2>
+        <p>
+            Welcome to the osu! Fan Page, your ultimate destination for everything related to osu!. 
+            This site is dedicated to providing a space for fans, players, and creators to connect, 
+            explore game modes, participate in events, and share their passion for rhythm gaming.
+        </p>
+        <p>
+            Whether you're new to osu! or a seasoned player, our site has something for everyone. Dive into 
+            the gallery for inspiring screenshots and fan art, or check out the schedule for upcoming tournaments 
+            and community events. Join us and become a part of this vibrant and growing community!
+        </p>
+        <a href="register.html" class="btn btn-primary mt-3">Join Now</a>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>Contact: <a href="mailto:info.osufansite@gmail.com">info.osufansite@gmail.com</a></p>
+        <p>Follow us: <a href="https://www.facebook.com/profile.php?id=61570379163825">Facebook</a> | <a href="https://x.com/osufansite">Twitter</a> | <a href="https://www.instagram.com/osufansite/?next=%2F">Instagram</a></p>
+        <p><a href="sitemap.html">Sitemap</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <div id="carousel-container" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-container" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-container" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
